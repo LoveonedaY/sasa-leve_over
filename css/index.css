@@ -1,0 +1,446 @@
+.main-banner {
+	width: 1260px;
+	height: 420px;
+	margin: 0 auto;
+	overflow: hidden;
+	position: relative;
+}
+
+.banner-main {
+	width: 1920px;
+	height: 420px;
+	margin: 0 auto;
+}
+
+.banner-main li a img {
+	display: block;
+	width: 1920px;
+	height: 420px;
+	position: absolute;
+	left: -330px;
+	top: 0;
+}
+
+.banner-span {
+	width: 1480px;
+	height: 35px;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	zoom: 1;
+}
+
+.banner-span span {
+	width: 15px;
+	height: 15px;
+	display: block;
+	float: left;
+	margin-left: 2px;
+	background: url(../img/dot.png) no-repeat left bottom;
+}
+
+.banner-span p {
+	width: 100px;
+	height: 35px;
+	margin: 0 auto;
+}
+
+.banner-span .banner-active {
+	background: url(../img/dot.png) no-repeat left top;
+}
+
+.everyday {
+	width: 100%;
+	background: #fff;
+	padding-bottom: 2px;
+	padding-top: 30px;
+	position: relative;
+}
+
+.everyday-hr {
+	width: 1090px;
+	height: 20px;
+	margin: 0 auto 43px;
+	text-align: center;
+	border-bottom: 4px solid #ec3e7d;
+}
+
+.everyday-hr span {
+	display: block;
+	width: 310px;
+	height: 31px;
+	background: #fff url(../img/zhenghe1.png) 0 0;
+	margin: 0 auto;
+	border-left: 15px solid #fff;
+	border-right: 15px solid #fff;
+}
+
+.everyday-bg {
+	width: auto;
+	height: 720px;
+	margin-right: 50%;
+	position: absolute;
+	top: 97px;
+	left: 0;
+	right: 545px;
+	overflow: hidden;
+	background: url(../img/bg1.jpg) no-repeat right top;
+}
+
+.everyday-show {
+	width: 1090px;
+	height: 555px;
+	background: #fff;
+	margin: 0 auto;
+	position: relative;
+	top: 1px;
+}
+
+.everyday-show ul {
+	width: 1120px;
+	margin-left: 1px;
+}
+
+.everyday-show li {
+	float: left;
+	width: 271px;
+	margin: -1px 0 0 -1px;
+	border: 1px solid #bfc1c2;
+	text-align: center;
+}
+
+.everyday-show li a {
+	display: block;
+	width: 271px;
+	height: 271px;
+	overflow: hidden;
+}
+
+.everyday-bg2 {
+	width: auto;
+	height: 720px;
+	margin-left: 50%;
+	position: absolute;
+	top: 97px;
+	right: 0;
+	left: 545px;
+	overflow: hidden;
+	background: url(../img/bg1.jpg) no-repeat left top;
+}
+
+.main-footer {
+	width: 100%;
+	height: 2042px;
+	background: #f2f2f2;
+}
+
+.main-time {
+	width: 1090px;
+	padding-top: 40px;
+	margin: 0 auto;
+}
+
+.time-tit {
+	padding-bottom: 20px;
+	margin-bottom: 10px;
+	border-bottom: 4px solid #ec3e7d;
+	position: relative;
+}
+
+.time-tit span {
+	width: 345px;
+	height: 31px;
+	display: inline-block;
+	background: url(../img/zhenghe1.png) no-repeat 0 -70px;
+	overflow: hidden;
+}
+
+.time-tit a {
+	float: right;
+	font-size: 15px;
+	padding-top: 5px;
+	color: #3e3e3e;
+}
+
+.time-shop {
+	width: 1120px;
+	height: 1198px;
+	margin-left: -25px;
+}
+
+.time-shop li {
+	width: 346px;
+	height: 574px;
+	margin: 0 0 25px 25px;
+	background: #fff;
+	float: left;
+}
+
+.time-shop li a {
+	display: block;
+	width: 346px;
+	height: 574px;
+	position: relative;
+}
+
+.time-shop li a i {
+	display: block;
+	width: 48px;
+	height: 48px;
+	padding: 20px 20px 0 0;
+	text-align: center;
+	background: url(../img/zhenghe3.png) no-repeat -265px -531px;
+	position: absolute;
+	top: 12px;
+	left: 16px;
+}
+
+.time-shop li a i b {
+	color: #fff;
+	font-size: 24px;
+	font-family: arial;
+	font-style: italic;
+}
+
+.shop-pic {
+	width: 346px;
+	height: 346px;
+	overflow: hidden;
+}
+
+.shop-pic img {
+	display: block;
+	width: 346px;
+	height: 346px;
+	margin: 0 auto;
+}
+
+.price {
+	color: #858587;
+	padding: 10px 15px;
+	border-bottom: 1px solid #eee;
+	border-top: 1px solid #eee;
+}
+
+.price-1 {
+	font-size: 24px;
+	margin-right: 10px;
+	text-align: left;
+	color: #ec3e7d;
+}
+
+.price-2 {
+	text-align: left;
+}
+
+.price-3 {
+	float: right;
+	font-size: 14px;
+	padding-right: 30px;
+}
+
+.explain {
+	padding: 5px 15px;
+	overflow: hidden;
+}
+
+.explain-1 {
+	height: 55px;
+	line-height: 25px;
+	margin-bottom: 2px;
+	color: #3e3e3e;
+	font-size: 15px;
+	font-weight: bold;
+	overflow: hidden;
+}
+
+.explain-1 em {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	background: url(../img/dou.png) no-repeat;
+}
+
+.explain-2 {
+	height: 20px;
+	line-height: 20px;
+	color: #808082;
+	font-size: 13px;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+.explain-3 {
+	height: 40px;
+	line-height: 20px;
+	color: #808082;
+	font-size: 13px;
+	overflow: hidden;
+}
+
+.explain-4 {
+	color: #808082;
+}
+
+.explain-5 {
+	color: #3e3e3e;
+	font-size: 14px;
+	text-align: right;
+}
+
+.explain-5 em {
+	display: inline-block;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	margin-bottom: -4px;
+	background: url(../img/daojishi.png) no-repeat;
+}
+
+.time-shop .qg {
+	display: none;
+	width: 230px;
+	height: 230px;
+	background: url(../img/zhenghe3.png) no-repeat 0 0;
+	position: absolute;
+	top: 50px;
+	left: 60px;
+	z-index: 2;
+}
+
+.main-hot {
+	width: 1090px;
+	margin: 0 auto;
+	padding-top: 40px;
+	padding-bottom: 30px;
+}
+
+.hot-nav {
+	height: 42px;
+	line-height: 40px;
+	margin-bottom: 25px;
+	border-bottom: 2px solid #d4d5d7;
+	font-size: 16px;
+	position: relative;
+}
+
+.hot-line {
+	width: 112px;
+	height: 2px;
+	border-bottom: 2px solid #c69a62;
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+}
+
+.hot-nav li {
+	float: left;
+}
+
+.hot-nav a {
+	display: inline-block;
+	padding: 0 24px;
+	color: #3e3e3e;
+}
+
+.hot-logo {
+	display: none;
+	width: 1120px;
+	margin-left: -26px;
+}
+
+.hot-logo li {
+	width: 253px;
+	height: 150px;
+	margin: 25px 0 0 26px;
+	overflow: hidden;
+	float: left;
+	position: relative;
+}
+
+.hot-logo li p {
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.hot-logo img {
+	width: 253px;
+	height: 150px;
+	float: left;
+}
+
+.left {
+	display: none;
+	width: 80px;
+	text-align: center;
+	position: fixed;
+	left: 0;
+	top: 100px;
+	z-index: 15;
+}
+
+.left ul {
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.left li {
+	padding: 10px 0;
+	font-size: 13px;
+	border-bottom: 1px solid #eee;
+	background: #fff;
+}
+
+.left li a {
+	color: #3e3e3e;
+}
+
+.left i {
+	display: block;
+	width: 80px;
+	height: 36px;
+}
+
+.top {
+	display: none;
+	width: 100%;
+	height: 44px;
+	padding: 8px 0;
+	background: #000;
+	opacity: 0.9;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 10;
+}
+
+.top-div1 {
+	width: 1090px;
+	margin: 0 auto;
+}
+
+.top-div2 {
+	width: auto;
+	height: 40px;
+	overflow: hidden;
+	float: left;
+}
+
+.top-div2 img {
+	width: auto;
+	height: 40px;
+}
+
+.blur {
+	filter: url(blur.svg#blur);
+	/* FireFox, Chrome, Opera */
+	-webkit-filter: blur(10px);
+	/* Chrome, Opera */
+	-moz-filter: blur(10px);
+	-ms-filter: blur(10px);
+	filter: blur(10px);
+	filter: progid: DXImageTransform.Microsoft.Blur(PixelRadius=10, MakeShadow=false);
+	/* IE6~IE9 */
+}

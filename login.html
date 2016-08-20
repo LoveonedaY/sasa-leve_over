@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<title>登陆</title>
+		<link rel="stylesheet" href="css/sasa.css" />
+		<link rel="stylesheet" href="css/regist&login.css" />
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/sasa.js"></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<div class="header-top">
+				<div class="top-main">
+					<div class="top-left">
+						<span style="display: block;">
+						<span>欢迎光临莎莎官网！</span>
+						<a class="login" href="login.html">登录</a>
+						<span class="or">或</span>
+						<a class="register" href="regist.html">免费注册</a>
+						</span>
+					</div>
+					<div class="top-right">
+						<ul id="list">
+							<li id="users">
+								<div>
+									<a href="javascript:void(0); ">
+										<i style="background: url(img/my-account.png) no-repeat;"></i>我的账户<em></em>
+									</a>
+								</div>
+								<dl id="userslist" class="userslist">
+									<dd>
+										<a href="javascript:void(0);">我的订单</a>
+									</dd>
+									<dd>
+										<a href="javascript:void(0);">我的积分</a>
+									</dd>
+									<dd>
+										<a href="javascript:void(0);">我的优惠卷</a>
+									</dd>
+									<dd>
+										<a href="javascript:void(0);">我的收藏</a>
+									</dd>
+									<dd>
+										<a href="javascript:void(0);">我的评价</a>
+									</dd>
+								</dl>
+							</li>
+							<li>
+								<div id="enshrine">
+									<a href="javascript:void(0); ">
+										<i style="background: url(img/my-enshrine.png) no-repeat;"></i>我的收藏
+									</a>
+								</div>
+							</li>
+							<li>
+								<div id="email">
+									<a href="javascript:void(0); ">
+										<i style="background: url(img/my-email.png) no-repeat;"></i>我的站内信
+									</a>
+								</div>
+							</li>
+							<li>
+								<div>
+									<a href="javascript:void(0); ">积分中心</a>
+								</div>
+							</li>
+							<li>
+								<div>
+									<a href="javascript:void(0); ">Global Site</a>
+								</div>
+							</li>
+							<li id="about">
+								<div>
+									<a href="javascript:void(0); ">
+										</i>关注我们<em></em></a>
+								</div>
+								<dl id="aboutdl" class="attentionlist">
+									<dt>
+										<a href="javascript:void(0); ">
+											<img style="width: 16px;height: 12px;" src="img/enshrine.png" />加入收藏
+										</a>
+										<a id="sina" href="javascript:void(0); ">
+											<img style="width: 17px;height: 15px;" src="img/sina.png" />新浪微博
+										</a>
+										<a id="sasa" href="javascript:void(0); ">
+											<img style="width: 17px;height: 14px;" src="img/sasa.png" />莎莎微信
+										</a>
+										<a id="yk" href="javascript:void(0); ">
+											<img style="width: 17px;height: 13px;" src="img/yk.png" />优酷视频
+										</a>
+									</dt>
+									<dd id="sinapic">
+										<img src="img/sina1.jpg" />
+									</dd>
+									<dd id="sasapic">
+										<img src="img/sasa1.jpg" />
+									</dd>
+									<dd id="ykpic">
+										<img src="img/yk1.jpg" />
+									</dd>
+								</dl>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div class="header-middle">
+				<div class="middle-main">
+					<div class="logo">
+						<a href="index.html">
+							<img src="img/logo.png" />
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="login-main">
+			<div class="login-box">
+				<div class="login-div">
+					<div class="login-tit">用户登录
+						<span>还没有莎莎账号？<a href="regist.html">立即注册</a></span>
+					</div>
+					<div class="login-text">
+						<ul>
+							<li class="login-list">
+								<input id="dluser" style="background: url(img/zhenghe2.png) no-repeat 6px -120px;text-indent: 24px;" type="text" placeholder="邮箱/手机" />
+								<p class="error"><i></i><span></span></p>
+							</li>
+							<li class="login-list">
+								<input id="dlpass" style="background: url(img/zhenghe2.png) no-repeat 6px -160px;text-indent: 24px;" type="password" placeholder="填写密码" />
+								<p class="error"><i></i><span></span></p>
+							</li>
+							<li class="login-check">
+								<input id="check" type="checkbox" checked="checked" />
+								<label for="check">记住我</label>
+								<a href="javascript:void(0);">忘记密码？</a>
+							</li>
+							<li class="login-btn">
+								<button id="btn1" type="submit">登录</button>
+							</li>
+						</ul>
+					</div>
+					<div class="other-login">
+						<p>第三方账号登录</p>
+						<ul>
+							<li>
+								<a href="javascript:void(0);"><img src="img/QQ.jpg" />QQ登录</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"><img src="img/sina0.jpg" />微博登录</a>
+							</li>
+							<li>
+								<a href="javascript:void(0);"><img src="img/zfb.jpg" />支付宝登录</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer-last">
+			<p>
+				<span class="span1">© Copyright 2000-2016 Sa Sa dot Com Limited 版权所有。</span>
+				<span class="span2">莎莎国际控股有限公司成员</span>
+			</p>
+		</div>
+	</body>
+
+</html>

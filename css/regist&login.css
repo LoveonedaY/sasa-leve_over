@@ -1,0 +1,154 @@
+.login-main {
+	width: 1090px;
+	margin: 0 auto;
+}
+
+.login-box {
+	display: block;
+	height: 492px;
+	margin-top: 40px;
+	margin-bottom: 24px;
+	background: url(../img/login-pic.png) no-repeat left center;
+}
+
+.login-div {
+	width: 350px;
+	padding: 35px;
+	margin-right: 68px;
+	margin-bottom: 10px;
+	box-shadow: 0 0 5px #e1e1e1, 0 0 15px #e1e1e1;
+	float: right;
+}
+
+.login-tit {
+	margin-bottom: 10px;
+	color: #5a5d6c;
+	font-size: 21px;
+	font-family: "微软雅黑";
+}
+
+.login-tit span {
+	display: inline-block;
+	font-size: 12px;
+	float: right;
+}
+
+.login-tit span a {
+	display: inline-block;
+	margin: 0 3px;
+	color: #ec3e7d;
+}
+
+.login-text {
+	margin-top: 40px;
+}
+
+.login-list {
+	height: 51px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	position: relative;
+}
+
+.login-list input {
+	width: 340px;
+	height: 26px;
+	line-height: 26px;
+	padding: 4px;
+	border: 1px solid #ccc;
+	font-family: inherit;
+}
+
+.login-check {
+	height: 46px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	font-size: 13px;
+}
+
+#check {
+	width: 20px;
+	height: 13px;
+	vertical-align: middle;
+}
+
+.login-check label {
+	margin: 0 15px 0 5px;
+	vertical-align: middle;
+}
+
+.login-check a {
+	margin: 0 3px;
+	color: #ed3f7e;
+	vertical-align: middle;
+}
+
+.login-btn {
+	margin-bottom: 10px;
+	font-size: 13px;
+	overflow: hidden;
+}
+
+.login-btn button {
+	display: block;
+	width: 100%;
+	height: 40px;
+	line-height: 38px;
+	color: #fff;
+	font-size: 16px;
+	border: none;
+	background: #ed3f7e;
+	text-align: center;
+	cursor: pointer;
+}
+
+.other-login {
+	padding-top: 40px;
+}
+
+.other-login li {
+	display: inline-block;
+	width: 115px;
+	padding: 10px 0;
+	font-size: 12px;
+	float: left;
+}
+
+.other-login li a {
+	display: inline-block;
+	margin: 0 3px;
+	color: #3e3e3e;
+}
+
+.other-login li a img {
+	height: 35px;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.login-list p {
+	display: none;
+	width: 340px;
+	height: 20px;
+	line-height: 20px;
+	font-size: 12px;
+	position: absolute;
+	top: 38px;
+	left: 0;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+.login-list i {
+	display: inline-block;
+	width: 14px;
+	height: 16px;
+	background: url(../img/!.png) no-repeat;
+	margin-right: 5px;
+	vertical-align: middle;
+}
+
+.login-list span {
+	display: inline-block;
+	vertical-align: middle;
+}
